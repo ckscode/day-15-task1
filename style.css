@@ -1,0 +1,24 @@
+
+.calculator{
+    width:300px;
+    height:450px;
+    background-color:#DADADA;
+    border-radius:10px;
+}
+.content{
+    height:60vh;
+}
+.display{
+    background-color: #B9B9B9;
+    border:none;
+    height:60px;
+    font-size:30px;
+}
+.display::-webkit-inner-spin-button{
+    -webkit-appearance: none; 
+}
+#point,#multi,#divide,#add{
+    color:#3902FD;
+}
+
+
