@@ -33,8 +33,8 @@ function element(tag, classname, id, text) {
   const Zero = element("button","btn col-3 p-3","zero","0");
   const DoubleZero = element("button","btn col-3 p-3","double","00");
   const Equal = element("button","btn btn-primary h-75 mt-3 d-flex justify-content-center align-items-center col-6","equal","<div>=</div>");
-  let equalRes = false;
 
+  let equalRes = false;
 
   Display.type="text"
   Display.placeholder = "0"
